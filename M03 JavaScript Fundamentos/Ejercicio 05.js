@@ -43,13 +43,15 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
+   var area = (alto * ancho) 
+   return area;
 }
 
 function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un cuadrado.
    // Debes retornar su perímetro.
    // Tu código:
-   return lado*4
+   return (lado*4);
 }
 
 function areaDelTriangulo(base, altura) {
@@ -72,7 +74,7 @@ function esVocal(letra) {
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
-   if (letra === a || letra === e || letra === i || letra === o || letra === u ) {return "Es vocal";}
+   if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u" ) {return "Es vocal";}
    else {return "Dato incorrecto";}
 
 }

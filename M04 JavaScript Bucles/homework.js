@@ -178,8 +178,9 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-   var limite = 0
    
+   var limite = 0
+
    do {
       num +=5;
       limite ++;
